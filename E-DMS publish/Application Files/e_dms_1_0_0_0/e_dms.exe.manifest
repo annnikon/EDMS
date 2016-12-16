@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="e_dms.exe" version="1.0.0.0" publicKeyToken="dfdb07c8ab6cfb18" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="e_dms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="e_dms.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          При необходимости изменить уровень управления учетными записями Windows замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если вы хотите использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="e_dms.exe" size="878008">
+      <assemblyIdentity name="e_dms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sjCJy6+X8pzOSFDP7dut6Orx63y+YF8CJqYgUBVpkuQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="e_dms.exe.config" size="571">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SWBNUfd6Yz3wb5BNRbxUzLzQDne6VUSLRqYOILW+ZAA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LIMITLESS\Анна" issuerKeyHash="9390e1784be77aa22415d890ea7f744c1bae9a4a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3LwUyhoq0n7ZZqEen0IwjEZzwYAPRs83OxRS+yv5kYo=</DigestValue></Reference></SignedInfo><SignatureValue>APQbWkBbFzQ61DES+dVTuApjSRE61UQXju5EPyU6cS3pb57P92S+xI3LRkiWpNOl3QD/SxtGhi0NybWMJ+tfV9FmPGwLzx8hayKtpxLZdBkW+vQSi6MkHAttPVg4gkEc7dn06mrch3lHgsXs1GzQSGtVhooCebA1P52CMUI15Ko=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ltPE9aOgHfnGk/uJMOcfGJTmtMgdx5dW3W0gE54btDXmZnvN5tnkBKhHfWFNp7FiAawb0+PxB/Mb+gxzSvPFQD6BBxdc6/3+eADw+FekTW62GRO+rSRjBEGYAJDFexfA+iKW9VRmAVODkzXqZdtmGshyW+sBRzLuLQDHmsokous=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8a91f92bfb52143b37cf460f80c173468c30429f1ea166d97ed22a1aca14bcdc" Description="" Url=""><as:assemblyIdentity name="e_dms.exe" version="1.0.0.0" publicKeyToken="dfdb07c8ab6cfb18" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LIMITLESS\Анна</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yg4dcuthXGfk1HWCtdDLDxBvXyB3nPngKAV7RVMLQu8=</DigestValue></Reference></SignedInfo><SignatureValue>Dq4w6WdvN+X9ffIUBSVB8jHWySqhPtsPEkE+1UDG3Snl9I4cphy0ErAikjDKUVqQsBafXhDyNulA8czoDaUrEkqhlJs2g7L8fvwKpBgqCeiMUCAZYOy7i0gbNcRmJEycdWVBcWWnyrfhQrJlaKgKTvtSN5vi7lPZ3se0bmejHbU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ltPE9aOgHfnGk/uJMOcfGJTmtMgdx5dW3W0gE54btDXmZnvN5tnkBKhHfWFNp7FiAawb0+PxB/Mb+gxzSvPFQD6BBxdc6/3+eADw+FekTW62GRO+rSRjBEGYAJDFexfA+iKW9VRmAVODkzXqZdtmGshyW+sBRzLuLQDHmsokous=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQYeNnOXffprRFd6r2gAnEajANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwATABJAE0ASQBUAEwARQBTAFMAXAQQBD0EPQQwMB4XDTE1MDYwMTAyMDQzMloXDTE2MDUzMTA4MDQzMlowJzElMCMGA1UEAx4cAEwASQBNAEkAVABMAEUAUwBTAFwEEAQ9BD0EMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAltPE9aOgHfnGk/uJMOcfGJTmtMgdx5dW3W0gE54btDXmZnvN5tnkBKhHfWFNp7FiAawb0+PxB/Mb+gxzSvPFQD6BBxdc6/3+eADw+FekTW62GRO+rSRjBEGYAJDFexfA+iKW9VRmAVODkzXqZdtmGshyW+sBRzLuLQDHmsokousCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAauhno7qz1gk3Hv03UqumC/zCMSh4RW5Y+vJKjovp4sxbyRdTSBror9bGtXdVRFrGDQR6Fs6sgiGqarTAv6MIv48rCm80YzP/EA/qc6NTTWrsXtjTQvrTYibBddvvDJJJyRu6Jx3YpFwd0i8+rgxoc82zlAFHzTkzTjRqDRBNwbg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
